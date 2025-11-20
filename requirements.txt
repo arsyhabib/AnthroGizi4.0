@@ -66,9 +66,7 @@ requests==2.32.3
 # WHO GROWTH CALCULATOR
 # ───────────────────────────────────────────────────────────────────
 
-# pygrowup - WHO Child Growth Standards calculator
-# Note: This should be installed from local directory or specific source
-# pygrowup==0.7.3
+
 
 # ───────────────────────────────────────────────────────────────────
 # OPTIONAL BUT RECOMMENDED FOR PRODUCTION
