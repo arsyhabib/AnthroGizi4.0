@@ -651,7 +651,10 @@ def index():
     return render_template('index.html', 
                          app_title=APP_TITLE,
                          app_version=APP_VERSION,
-                         contact_wa=CONTACT_WA)
+                         contact_wa=CONTACT_WA,
+                         articles=ARTIKEL_LOKAL_DATABASE,       # <--- INI YANG KURANG TADI
+                         kpsp_videos=KPSP_YOUTUBE_VIDEOS,       # <--- INI JUGA
+                         mpasi_videos=MPASI_YOUTUBE_VIDEOS)     # <--- DAN INI
 
 @app.route('/dashboard')
 def dashboard():
